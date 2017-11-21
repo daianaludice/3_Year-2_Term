@@ -1,0 +1,46 @@
+;----------------------------------------
+
+; DFA를 데이터 파일로 표현
+
+;----------------------------------------
+
+Terminals=ab
+
+Nonterminals=SAEFHDGC
+
+Final states=CDFGH
+
+S A _
+
+A E F
+
+E E H
+
+F D G
+
+H D H
+
+D _ C
+
+G _ H
+
+C D _
+
+;----------------------------------------
+
+; DFA -- 두번째 예제
+
+;----------------------------------------
+
+;Terminals=01
+
+;Nonterminals=pqr
+
+;Final states=r
+
+;p q r
+
+;q p r
+
+;r _ q
+ 
