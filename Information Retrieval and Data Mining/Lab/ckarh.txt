@@ -1,0 +1,2 @@
+void put_hexa(char *text){
+char *p}
